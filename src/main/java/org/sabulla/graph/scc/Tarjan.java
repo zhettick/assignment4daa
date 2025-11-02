@@ -123,4 +123,8 @@ public class Tarjan {
         }
         return -1;
     }
+
+    public List<List<Integer>> getGroups() {
+        return groups;
+    }
 }
