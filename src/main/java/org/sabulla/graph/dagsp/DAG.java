@@ -23,6 +23,7 @@ public class DAG {
     }
 
     public void shortestPath(int source, List<Integer> order) {
+        metrics.start();
         int n = dag.getVertices();
         int[] dist = new int[n];
         int[] parent = new int[n];
